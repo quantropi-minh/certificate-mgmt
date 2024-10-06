@@ -1,35 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="JdUeqftF3ewd7vPqp3t6">
-    <mxGraphModel dx="1118" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1268" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="80" y="160" width="160" height="210" as="geometry" />
+          <mxGeometry x="80" y="326" width="266" height="434" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;QC&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
-          <mxGeometry width="160" height="210" as="geometry" />
+          <mxGeometry x="-79" y="104" width="280" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tTESNeV0Gu1LoBYlUzwr-9" source="tTESNeV0Gu1LoBYlUzwr-1" target="tTESNeV0Gu1LoBYlUzwr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="21" y="174" />
+              <mxPoint x="-39" y="174" />
+              <mxPoint x="-39" y="394" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-1" value="qispace_admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
-          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="21" y="144" width="120" height="62.38" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
-          <mxGeometry x="56" y="120" width="48" height="64" as="geometry" />
+          <mxGeometry x="57" y="353.9971428571429" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.014;exitY=0.676;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF3300;" edge="1" parent="tTESNeV0Gu1LoBYlUzwr-9" source="tTESNeV0Gu1LoBYlUzwr-1" target="tTESNeV0Gu1LoBYlUzwr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="31" y="171" as="sourcePoint" />
+            <mxPoint x="67" y="326" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11" y="186" />
+              <mxPoint x="11" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-18" value="generates DS key pairs at migration" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
+          <mxGeometry x="-109" y="254" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-31" value="Sets up QC certificate through UI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#FF3300;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
+          <mxGeometry width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tTESNeV0Gu1LoBYlUzwr-9" source="tTESNeV0Gu1LoBYlUzwr-1" target="tTESNeV0Gu1LoBYlUzwr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="-70" as="sourcePoint" />
+            <mxPoint x="91" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-33" value="verify QC certificate against Quantropy PK and updates DB" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#FF3300;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-9">
+          <mxGeometry x="-7" y="252" width="127" height="46" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="170" width="290" height="430" as="geometry" />
+          <mxGeometry x="464" y="427" width="397" height="430" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;KDS&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
-          <mxGeometry width="290" height="350" as="geometry" />
+          <mxGeometry width="397" height="350" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-12" value="qiserver_admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
-          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="156" y="51" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-13" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
-          <mxGeometry x="50" y="260" width="48" height="64" as="geometry" />
+          <mxGeometry x="40" y="259" width="48" height="64" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-14" value="qe2qk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
-          <mxGeometry x="150" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="14" y="156" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tTESNeV0Gu1LoBYlUzwr-10" source="tTESNeV0Gu1LoBYlUzwr-12" target="tTESNeV0Gu1LoBYlUzwr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="157" as="sourcePoint" />
+            <mxPoint x="322" y="376" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="337" y="81" />
+              <mxPoint x="337" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-34" value="generates DS key pairs at migration" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
+          <mxGeometry x="305" y="178" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.971;entryY=0.339;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tTESNeV0Gu1LoBYlUzwr-10" source="tTESNeV0Gu1LoBYlUzwr-12" target="tTESNeV0Gu1LoBYlUzwr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="91" as="sourcePoint" />
+            <mxPoint x="108" y="302" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="296" y="96" />
+              <mxPoint x="296" y="281" />
+              <mxPoint x="125" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-37" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;writes quantropi PK&lt;/span&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;at migration&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontColor=#FF3300;" vertex="1" parent="tTESNeV0Gu1LoBYlUzwr-10">
+          <mxGeometry x="263" y="171" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Quantropi&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tTESNeV0Gu1LoBYlUzwr-23" target="tTESNeV0Gu1LoBYlUzwr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-29" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;QC Admin&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Obtains QC certificate from Quantropi&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;using QC &lt;font color=&quot;#ff3300&quot;&gt;DS public key (obtained from QC UI)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="153" width="238" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-23" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
+          <mxGeometry x="135" y="210" width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tTESNeV0Gu1LoBYlUzwr-21" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;writes quantropi PK&lt;/span&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;at migration&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#FF3300;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="586" width="107" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
