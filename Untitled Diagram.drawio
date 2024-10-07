@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="JdUeqftF3ewd7vPqp3t6">
-    <mxGraphModel dx="1818" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="1133" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nJFF-xajyy8-XzAQjmIH-46" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="28.75" y="94" width="1206.25" height="944" as="geometry" />
+        <mxCell id="nJFF-xajyy8-XzAQjmIH-46" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="28.75" y="94" width="1206.25" height="914" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="138.75" y="347" width="266" height="434" as="geometry" />
@@ -103,8 +103,8 @@
         <mxCell id="iAeIExdUGCIjS5VBDX8z-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="tTESNeV0Gu1LoBYlUzwr-10" source="tTESNeV0Gu1LoBYlUzwr-14" target="tTESNeV0Gu1LoBYlUzwr-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iAeIExdUGCIjS5VBDX8z-20" value="&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Validate /sub_key response against Quantropi x509 certificate&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Updates DB, &lt;font color=&quot;#ff3300&quot;&gt;including KDS x509 certificate&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="tTESNeV0Gu1LoBYlUzwr-10" vertex="1">
-          <mxGeometry x="78" y="250" width="169" height="67" as="geometry" />
+        <mxCell id="iAeIExdUGCIjS5VBDX8z-20" value="&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Validate QC x509 certificate &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 51, 0);&quot;&gt;against Quantropi x509 certificate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 51, 0);&quot;&gt;- Validate KDS x509 certificate against QC x509 certificate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Updates DB, &lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff3300&quot;&gt;including:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff3300&quot;&gt;&amp;nbsp; + KDS x509 certificate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff3300&quot;&gt;&amp;nbsp; + QC x509 certificate&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="tTESNeV0Gu1LoBYlUzwr-10" vertex="1">
+          <mxGeometry x="78" y="231" width="195" height="105" as="geometry" />
         </mxCell>
         <mxCell id="tTESNeV0Gu1LoBYlUzwr-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Quantropi&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="543.75" y="230" width="137" height="38" as="geometry" />
@@ -124,7 +124,7 @@
         <mxCell id="iAeIExdUGCIjS5VBDX8z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tTESNeV0Gu1LoBYlUzwr-14" target="tTESNeV0Gu1LoBYlUzwr-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iAeIExdUGCIjS5VBDX8z-14" value="&lt;b&gt;/sub_key request&lt;/b&gt;, with:&lt;div&gt;- QC device_token&lt;br&gt;&lt;div&gt;- kem_pk&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;- x509 certificate request with the above as subjects&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;If network fails, display x509 certificate&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+        <mxCell id="iAeIExdUGCIjS5VBDX8z-14" value="&lt;b&gt;/sub_key request&lt;/b&gt;, with:&lt;div&gt;- QC device_token&lt;br&gt;&lt;div&gt;- kem_pk&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;- &lt;b&gt;x509 certificate request&lt;/b&gt; with the above as subjects&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;If network fails, display &lt;b&gt;x509 certificate request&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="532.75" y="472" width="202" height="152" as="geometry" />
         </mxCell>
         <mxCell id="iAeIExdUGCIjS5VBDX8z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="tTESNeV0Gu1LoBYlUzwr-1" target="tTESNeV0Gu1LoBYlUzwr-14" edge="1">
@@ -137,7 +137,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iAeIExdUGCIjS5VBDX8z-17" value="&lt;b&gt;/sub_key response&lt;/b&gt;, with:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- sub_key&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- sdk_key_index&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;profile (ie, kds capacity info)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;- ds_pk&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;- &lt;b&gt;KDS x509 certificate&lt;/b&gt; with all the above as subject&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+        <mxCell id="iAeIExdUGCIjS5VBDX8z-17" value="&lt;b&gt;/sub_key response&lt;/b&gt;, with:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- sub_key&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- sdk_key_index&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;profile (ie, kds capacity info)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 0);&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(255, 51, 0);&quot;&gt;KDS x509 certificate&lt;/b&gt;&lt;span style=&quot;color: rgb(255, 51, 0);&quot;&gt;&amp;nbsp;with all the above as subject&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff3300&quot;&gt;- QC x509 certificate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="507.75" y="682" width="193" height="108" as="geometry" />
         </mxCell>
         <mxCell id="iAeIExdUGCIjS5VBDX8z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tTESNeV0Gu1LoBYlUzwr-1" target="tTESNeV0Gu1LoBYlUzwr-23" edge="1">
